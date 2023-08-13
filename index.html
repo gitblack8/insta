@@ -1,16 +1,29 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        rel="stylesheet"/>
     </head>
     <body>
-        <div>
+        <div id="top">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png?20160616034027" width="120px"/>
-            <input type="search" value="검색"/>
+            <input type="search" value="🔎검색"/>
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-film"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
         </div>
         <div id="profile">
-            <img src="img/rose.jpg" width="50px"/>
-            <div>
-                <h2>black8</h2>
+            <div id="profile_pic">
+                <img src="img/rose.jpg" class="circle_pic"/>
+            </div>
+            <div id="profile_info">
+                <div id="id">
+                    black8
+                    <i class="fa-solid fa-gear"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -28,50 +41,62 @@
             </a>
             </p>
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div>
-                    <img src="img/r2.jpg" width="35px"/>
+                <div class="highlight_pic">
+                    <img src="img/r2.jpg" class="circle_pic"/>
                 </div>
                 <div>
                     😊
                 </div>
             </div>
             <div class="highlight">
-                <div>
-                    <img src="img/r3.jpg" height="35px"/>
+                <div class="highlight_pic">
+                    <img src="img/r3.jpg" class="circle_pic"/>
                 </div>
                 <div>
                     😎
                 </div>
             </div>
-            
+            <div></div>
         </div>
-        <div>
-            <div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br/>
                 122
             </div>
-            <div>
+            <div class="stat">
                 팔로워<br/>
                 333
             </div>
-            <div>
+            <div class="stat">
                 팔로우<br/>
                 234
             </div>
         </div>
-        <div>아이콘 자리</div>
+        <div id="subIcons">
+            <div id="firstSub"><i class="fa-regular fa-bell"></i></div>
+            <div><i class="fa-regular fa-share-from-square"></i></div>
+            <div><i class="fa-regular fa-paper-plane"></i></div>
+            <div><i class="fa-regular fa-bookmark"></i></div>
+            <div><i class="fa-solid fa-location-dot"></i></div>
+        </div>
         <div>
-            <img src="img/thumnails/hankyong.jpg" width="32%"/>
-            <img src="img/thumnails/mhn.jpg" width="32%"/>
-            <img src="img/thumnails/money.jpg" width="32%"/>
-            <img src="img/thumnails/oasis.jpg" width="32%"/>
-            <img src="img/thumnails/soeul.jpg" width="32%"/>
-            <img src="img/thumnails/star.jpg" width="32%"/>
-            <img src="img/thumnails/today.jpg" width="32%"/>
-            <img src="img/thumnails/wiki.jpg" width="32%"/>
-            <img src="img/thumnails/ytn.jpg" width="32%"/>
+            <div class="thumbnail_grid">
+                <img src="img/thumnails/hankyong.jpg" class="thumbnail"/>
+                <img src="img/thumnails/mhn.jpg" class="thumbnail"/>
+                <img src="img/thumnails/money.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="img/thumnails/oasis.jpg" class="thumbnail"/>
+                <img src="img/thumnails/soeul.jpg" class="thumbnail"/>
+                <img src="img/thumnails/star.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="img/thumnails/today.jpg" class="thumbnail"/>
+                <img src="img/thumnails/wiki.jpg" class="thumbnail"/>
+                <img src="img/thumnails/ytn.jpg" class="thumbnail"/>
+            </div>   
         </div>
     </body>
 </html>
