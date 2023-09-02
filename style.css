@@ -14,7 +14,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 
-  height: 100%;
+  height: 10vw;
   object-fit: contain;
 }
 #top input{
@@ -108,7 +108,7 @@ button{
   margin-bottom: 10px;
 }
 #firstSub{
-  font-size: 14px;
+  font-size: 5vws;
 
   padding-bottom: 10px;
   border-bottom: 3px solid black;

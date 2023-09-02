@@ -1,1 +1,27 @@
-<input value="검색"/>
+<!-- <input type="button" value="click"/> -->
+<p onclick="
+    for (let i = 0; i < 5; i++) {
+      console.log(i)
+    }        
+          
+  ">
+  눌러봐요
+</p>
+<script>
+  function numbering(n) {
+    for ( let i = 0; i < 5;i++) {
+      console.log(i)
+    }
+  }
+</script>
+<!-- <input type="button" value="버튼" onclick="numbering(5)"/> -->
+
+<input/>
+<script>
+  let button = document.querySelector("input")
+  button.addEventListener("input",
+  function(e){
+    console.log(e.target.value)
+  }
+  )
+</script>
